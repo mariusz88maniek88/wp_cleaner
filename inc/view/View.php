@@ -1,9 +1,6 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: Maniek
- * Date: 2018-01-08
- * Time: 22:36
+ * @package cleanerDB
  */
 namespace cleanerdb\view;
 
@@ -23,7 +20,7 @@ class View extends DeleteDB{
 					<h5 class="m-2">Usuń Historię zapisu Settings Customize</h5>
 					<!-- Button trigger modal -->
 					<button type="button" class="btn btn-primary m-4" data-toggle="modal" data-target="#exampleModal">
-						Launch demo modal
+						Wyczyść
 					</button>
 					<h4 class="m-2">Ilość zapisanych rekrodów historii w bazie: <?php echo parent::customizeChange(); ?></h4>
 
